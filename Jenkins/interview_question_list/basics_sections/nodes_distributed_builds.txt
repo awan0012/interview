@@ -1,0 +1,14 @@
+# Jenkins Nodes & Distributed Builds
+
+1. What are Jenkins nodes?
+2. How do you add a new node to Jenkins?
+3. What is the difference between a master and an agent in Jenkins?
+4. How do you configure a Jenkins node for specific builds?
+5. What is the purpose of the label in Jenkins nodes?
+6. How do you manage node availability in Jenkins?
+7. How do you configure Jenkins for distributed builds?
+8. What are the advantages of using Jenkins agents?
+9. How do you secure communication between Jenkins master and agents?
+10. How do you troubleshoot node connection issues in Jenkins?
+
+# Jenkins Security

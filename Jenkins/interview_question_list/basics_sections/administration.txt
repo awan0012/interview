@@ -1,0 +1,14 @@
+# Jenkins Administration
+
+1. How do you monitor Jenkins performance?
+2. How do you manage Jenkins logs?
+3. What is the purpose of the Jenkins system log?
+4. How do you configure email notifications in Jenkins?
+5. How do you manage disk usage in Jenkins?
+6. What is the purpose of the Jenkins CLI?
+7. How do you configure Jenkins for high availability?
+8. How do you manage large Jenkins installations?
+9. How do you perform a safe shutdown of Jenkins?
+10. What are the best practices for Jenkins administration?
+
+# Jenkins Best Practices & Troubleshooting

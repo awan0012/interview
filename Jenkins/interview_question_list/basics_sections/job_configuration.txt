@@ -1,0 +1,14 @@
+# Jenkins Job Configuration
+
+1. How do you configure a job in Jenkins?
+2. What are build triggers, and how do you configure them in Jenkins?
+3. How do you schedule a Jenkins job using CRON syntax?
+4. What are post-build actions in Jenkins?
+5. How do you configure a job to run on specific nodes in Jenkins?
+6. What is the role of build parameters in Jenkins?
+7. How do you use artifacts in a Jenkins job?
+8. What is the purpose of the Build Now button in Jenkins?
+9. How do you manage build history in Jenkins?
+10. How do you configure source code management (SCM) in Jenkins?
+
+# Jenkins Nodes & Distributed Builds

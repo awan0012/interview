@@ -1,0 +1,14 @@
+# Jenkins Installation & Configuration
+
+1. How do you install Jenkins on a server?
+2. What are the system requirements for Jenkins?
+3. How do you configure Jenkins after installation?
+4. How do you manage Jenkins plugins?
+5. What is the Jenkins home directory, and what does it contain?
+6. How do you secure Jenkins with SSL?
+7. How do you set up authentication in Jenkins?
+8. What is the role of the Jenkinsfile?
+9. How do you backup Jenkins configurations and jobs?
+10. How do you update Jenkins to a newer version?
+
+# Jenkins Pipeline

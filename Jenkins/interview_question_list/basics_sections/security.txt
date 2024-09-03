@@ -1,0 +1,14 @@
+# Jenkins Security
+
+1. How do you secure Jenkins?
+2. What is role-based access control (RBAC) in Jenkins?
+3. How do you configure user permissions in Jenkins?
+4. What are security realms in Jenkins?
+5. How do you integrate Jenkins with LDAP for authentication?
+6. How do you set up matrix-based security in Jenkins?
+7. What is the purpose of the admin user in Jenkins?
+8. How do you manage credentials in Jenkins?
+9. What is a secret text credential in Jenkins, and how do you use it?
+10. How do you audit security in Jenkins?
+
+# Jenkins Integration

@@ -1,0 +1,14 @@
+# Jenkins Pipeline
+
+1. What is a Jenkins pipeline?
+2. How do you create a pipeline in Jenkins?
+3. Explain the difference between declarative and scripted pipelines.
+4. What is the Jenkinsfile, and how is it used in a pipeline?
+5. How do you use environment variables in a Jenkins pipeline?
+6. What are stages and steps in a Jenkins pipeline?
+7. How do you trigger a pipeline build in Jenkins?
+8. What is a multibranch pipeline in Jenkins?
+9. How do you handle parallel execution in a Jenkins pipeline?
+10. What is the role of the post section in a declarative pipeline?
+
+# Jenkins Plugins

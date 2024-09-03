@@ -1,0 +1,14 @@
+# Jenkins Basics
+
+1. What is Jenkins, and why is it used?
+2. How does Jenkins work?
+3. What are the key features of Jenkins?
+4. Explain the architecture of Jenkins.
+5. What is a Jenkins job?
+6. How do you create a new job in Jenkins?
+7. What are the different types of Jenkins jobs?
+8. What is the Jenkins pipeline?
+9. How do you trigger a Jenkins build?
+10. Explain the concept of continuous integration (CI) in Jenkins.
+
+# Jenkins Installation & Configuration

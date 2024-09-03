@@ -1,0 +1,14 @@
+# Jenkins Plugins
+
+1. What are Jenkins plugins?
+2. How do you install a plugin in Jenkins?
+3. How do you manage plugin dependencies in Jenkins?
+4. What is the role of the Git plugin in Jenkins?
+5. Explain how to use the Pipeline plugin in Jenkins.
+6. What are some essential plugins for Jenkins?
+7. How do you troubleshoot plugin issues in Jenkins?
+8. What is the purpose of the Blue Ocean plugin?
+9. How do you configure the Email Extension plugin in Jenkins?
+10. What is the role of the Job DSL plugin?
+
+# Jenkins Job Configuration

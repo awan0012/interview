@@ -1,0 +1,27 @@
+# Jenkins Best Practices & Troubleshooting
+
+1. How do you manage Jenkins configurations?
+2. What are some best practices for Jenkins pipeline development?
+3. How do you manage pipeline complexity in Jenkins?
+4. What are common issues faced in Jenkins, and how do you troubleshoot them?
+5. How do you handle failed builds in Jenkins?
+6. How do you optimize Jenkins performance?
+7. What are the best practices for managing Jenkins jobs?
+8. How do you perform disaster recovery for Jenkins?
+9. How do you keep Jenkins and its plugins up to date?
+10. How do you manage Jenkins security vulnerabilities?
+11. What are the best practices for scaling Jenkins in a large organization?
+12. How do you handle Jenkins downtime?
+13. How do you manage Jenkins backups?
+14. How do you handle Jenkins performance issues?
+15. How do you handle Jenkins security breaches?
+16. How do you manage Jenkins plugins?
+17. How do you handle Jenkins configuration drift?
+18. How do you handle Jenkins plugin conflicts?
+19. How do you handle Jenkins plugin updates?
+20. How do you handle Jenkins plugin vulnerabilities?
+21. How do you handle Jenkins plugin performance issues?
+22. How do you handle Jenkins plugin security issues?
+23. How do you handle Jenkins plugin configuration issues?
+24. How do you handle Jenkins plugin compatibility issues?
+
