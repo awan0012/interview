@@ -1,14 +1,80 @@
 ## Kubernetes Basics
 
 1. What is Kubernetes, and why is it used?
+   Kubernetes is an open-source container orchestration platform designed to automate the deployment, scaling, and management of containerized applications. It's used to:
+   - Efficiently manage containerized applications across clusters of hosts
+   - Ensure high availability and scalability of applications
+   - Simplify the process of deploying and updating applications
+   - Optimize resource utilization in a cluster
+   - Provide self-healing capabilities for applications
+
 2. Explain the architecture of Kubernetes.
+   Kubernetes architecture consists of two main components:
+   - Control Plane (Master Node):
+     - API Server: Acts as the frontend for Kubernetes
+     - etcd: Distributed key-value store for cluster data
+     - Scheduler: Assigns pods to nodes
+     - Controller Manager: Manages various controllers
+   - Worker Nodes:
+     - Kubelet: Ensures containers are running in a pod
+     - Container Runtime: Runs containers (e.g., Docker)
+     - Kube-proxy: Manages network rules for services
+
 3. What are the key components of the Kubernetes control plane?
+   The key components of the Kubernetes control plane are:
+   - API Server: Central management point for the cluster
+   - etcd: Stores all cluster data
+   - Scheduler: Assigns pods to nodes based on resource requirements
+   - Controller Manager: Runs controller processes
+   - Cloud Controller Manager (optional): Interacts with cloud providers
+
 4. What is a Kubernetes cluster?
+   A Kubernetes cluster is a set of machines (nodes) that run containerized applications managed by Kubernetes. It consists of at least one control plane and one or more worker nodes. The cluster provides a unified platform for deploying, scaling, and managing containerized applications across multiple hosts.
+
 5. What is the role of a Kubernetes node?
+   A Kubernetes node is a worker machine in the cluster responsible for running containerized applications. Its roles include:
+   - Running pods (groups of containers)
+   - Providing computing resources (CPU, memory, storage)
+   - Communicating with the control plane
+   - Maintaining network connectivity for pods
+   - Reporting node and pod status to the control plane
+
 6. Explain the function of the kube-apiserver.
+   The kube-apiserver is the central management point for the Kubernetes cluster. Its functions include:
+   - Exposing the Kubernetes API
+   - Processing and validating REST requests
+   - Updating the etcd store with cluster state
+   - Serving as the frontend for the cluster's shared state
+   - Enabling communication between cluster components
+
 7. What is etcd, and how is it used in Kubernetes?
+   etcd is a distributed key-value store used by Kubernetes to store all cluster data. It:
+   - Maintains the cluster's configuration data
+   - Stores the state of the cluster
+   - Ensures data consistency across the cluster
+   - Provides a reliable way to store and retrieve cluster information
+   - Supports Kubernetes' high availability and fault tolerance
+
 8. What is the role of the kube-scheduler?
+   The kube-scheduler is responsible for assigning pods to nodes. Its roles include:
+   - Watching for newly created pods with no assigned node
+   - Selecting the best node for each pod based on resource requirements
+   - Considering factors like resource availability, affinity/anti-affinity rules, and taints/tolerations
+   - Informing the API server of the scheduling decisions
+
 9. What does the kube-controller-manager do?
+   The kube-controller-manager runs controller processes that regulate the state of the cluster. It:
+   - Manages various controllers (e.g., Node Controller, Replication Controller)
+   - Ensures the desired state of the cluster is maintained
+   - Handles tasks like pod replication, endpoint creation, and service account management
+   - Continuously monitors the cluster state and makes necessary adjustments
+
 10. What is a Kubernetes pod?
+    A pod is the smallest deployable unit in Kubernetes. It represents:
+    - A single instance of a running process in a cluster
+    - One or more containers that share storage and network resources
+    - A logical host for containers with a unique IP address
+    - The basic building block for deployment in Kubernetes
+    - A way to group closely related containers that need to work together
 
 ## Pods
