@@ -1,0 +1,132 @@
+General SRE Knowledge
+
+What is the role of a Site Reliability Engineer (SRE) and how does it differ from traditional operations roles?
+How do you define Service Level Objectives (SLOs), and why are they important?
+Can you explain the concept of toil in the context of SRE, and how you would go about reducing it?
+How do you ensure the reliability and availability of a large-scale distributed system?
+What strategies do you use to identify and mitigate risks in production environments?
+
+Observability & Monitoring
+
+What is observability, and why is it crucial in an SRE role?
+Can you describe a comprehensive observability stack you've implemented?
+How do you use Splunk and OpenTelemetry for observability?
+Explain how you would design and implement effective monitoring and alerting strategies.
+How do you differentiate between monitoring, logging, and tracing?
+What are the key performance indicators (KPIs) you track for system health?
+How do you analyze observability data to troubleshoot and prevent issues?
+Describe your experience in setting up dashboards to monitor system health.
+What are the best practices for configuring alerts to avoid alert fatigue?
+How do you handle false positives in monitoring systems?
+
+Performance Optimization
+
+How do you identify performance bottlenecks in large-scale systems?
+What tools and techniques do you use for performance tuning?
+How do you ensure that new code changes do not degrade system performance?
+Explain how you would analyze and optimize the latency of an application.
+What is your approach to optimizing resource utilization in cloud environments?
+
+AWS & Cloud Infrastructure
+
+Describe your experience with AWS, specifically IAM, Lambda, CloudFront, RDS SQL Server, and PostgreSQL.
+How do you secure cloud environments using IAM roles and policies?
+Explain how you would design a cost-effective and scalable architecture in AWS.
+What are the best practices for managing and securing AWS Lambda functions?
+How do you handle database backups and disaster recovery in AWS RDS?
+How do you use CloudFormation and Terraform to manage infrastructure as code (IaC) in AWS?
+Explain the process of setting up and managing a VPC in AWS.
+How do you implement high availability and failover in an AWS environment?
+What is your approach to monitoring and managing costs in AWS?
+How do you handle secrets management in AWS?
+
+Automation & Scripting
+
+Describe your experience with Terraform and CloudFormation.
+How do you use automation to improve system reliability and efficiency?
+Can you walk us through a script you wrote to automate a routine SRE task?
+How do you handle version control for infrastructure as code (IaC)?
+What are some best practices for writing maintainable and secure automation scripts?
+Explain how you use Docker and Kubernetes in your automation processes.
+How do you ensure that your automation does not introduce new risks or issues?
+What is your approach to continuous integration and continuous deployment (CI/CD) for infrastructure?
+How do you handle rollbacks in automated deployment processes?
+Explain how you would automate incident response and resolution.
+
+Containerization & Orchestration
+
+What is Docker, and how do you use it in your deployments?
+How do you manage Docker images and containers in a production environment?
+Describe your experience with Kubernetes for container orchestration.
+How do you ensure the security of containerized applications?
+Explain how you would deploy and manage a Kubernetes cluster in AWS.
+How do you handle scaling in a Kubernetes environment?
+What are some common issues you have encountered with Kubernetes, and how did you resolve them?
+How do you monitor and log containers in a Kubernetes environment?
+Explain the role of Helm in Kubernetes deployments.
+How do you ensure high availability and disaster recovery for Kubernetes clusters?
+
+Programming & Scripting Languages
+
+What programming languages are you proficient in, and how do you use them in your SRE role?
+Describe a scenario where you used Python for automating a task.
+How do you use scripting languages like Bash or PowerShell in system administration?
+What are some best practices for writing secure and efficient scripts?
+How do you manage dependencies in a Python project?
+Explain how you use Python or .NET C# to interact with AWS services.
+What are your strategies for debugging and troubleshooting scripts?
+Describe a challenging scripting problem you solved and how you approached it.
+How do you ensure that your scripts are maintainable and scalable?
+What tools do you use for testing and deploying your scripts?
+
+CI/CD Pipelines & DevOps Practices
+
+Explain the concept of CI/CD and its importance in modern software development.
+Describe your experience with CI/CD tools like Azure DevOps, GitHub Actions, or GitLab.
+How do you integrate automated testing into a CI/CD pipeline?
+What are the best practices for managing CI/CD pipelines in a production environment?
+Explain how you handle secrets and credentials in a CI/CD pipeline.
+How do you ensure that deployments are safe and do not introduce new issues?
+What is your approach to managing rollbacks in a CI/CD pipeline?
+How do you monitor the performance of deployments in real-time?
+Describe your experience with blue-green or canary deployments.
+How do you ensure that your CI/CD processes align with organizational security policies?
+
+High Availability & Disaster Recovery
+
+What are the key principles of designing a highly available system?
+How do you implement disaster recovery for critical systems in AWS?
+Explain how you would design a multi-region deployment for high availability.
+How do you handle failover and redundancy in a cloud environment?
+What is your approach to testing disaster recovery plans?
+How do you ensure that your backup and restore processes are reliable?
+Describe a scenario where you had to recover from a major system failure.
+How do you balance performance and cost when designing for high availability?
+What tools do you use for managing and testing disaster recovery?
+Explain how you handle data consistency and integrity during failover events.
+
+Security & Compliance
+
+How do you ensure the security of cloud-based applications and infrastructure?
+What are the best practices for securing AWS environments?
+How do you implement and enforce security policies in an SRE role?
+Explain how you manage access control and identity management in AWS.
+Describe your experience with security monitoring and incident response.
+How do you handle compliance requirements in a financial services environment?
+What is your approach to auditing and logging in cloud environments?
+How do you ensure that your deployments comply with industry regulations?
+Describe a security challenge you faced and how you resolved it.
+How do you stay updated on the latest security threats and best practices?
+
+Collaboration & Communication
+
+How do you collaborate with development teams to ensure system reliability?
+Describe your experience working in an agile environment.
+How do you communicate technical concepts to non-technical stakeholders?
+What is your approach to handling conflicts or disagreements in a team setting?
+How do you ensure that all stakeholders are informed during an incident?
+Describe a time when you had to manage stakeholder expectations in a high-pressure situation.
+How do you handle the on-call responsibilities and ensure timely response to incidents?
+What strategies do you use to build and maintain strong working relationships with other teams?
+How do you document your work and share knowledge with your team?
+Describe how you would mentor a junior engineer in an SRE role.

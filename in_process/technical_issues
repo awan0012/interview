@@ -1,0 +1,130 @@
+Infrastructure as Code (IaC)
+
+What is Infrastructure as Code (IaC), and why is it important in modern cloud environments?
+How do you use Terraform to manage AWS resources?
+Explain the difference between Terraform and CloudFormation.
+How do you handle state management in Terraform?
+What are Terraform modules, and how do you use them to organize your infrastructure code?
+How do you implement version control for infrastructure as code?
+What are the best practices for writing reusable Terraform code?
+Explain how you manage secrets in Terraform.
+How do you debug issues in a Terraform configuration?
+What is Sentinel, and how do you use it with Terraform for policy enforcement?
+
+AWS Services
+
+Describe the role of IAM in AWS and how you manage permissions.
+How do you implement Multi-Factor Authentication (MFA) in AWS?
+Explain the use cases for AWS Lambda and how you deploy serverless applications.
+How do you manage and optimize S3 bucket storage in AWS?
+What are the best practices for securing RDS instances in AWS?
+How do you use AWS CloudTrail for auditing and monitoring?
+Explain the role of AWS CloudWatch in monitoring applications.
+How do you implement caching solutions using Amazon ElastiCache?
+How do you configure and manage AWS Route 53 for DNS management?
+Describe how you use AWS Config to monitor and manage compliance.
+
+Kubernetes & Containerization
+
+What are the core components of a Kubernetes cluster?
+How do you manage the lifecycle of a Kubernetes pod?
+Explain how you use Kubernetes namespaces for resource isolation.
+How do you secure a Kubernetes cluster?
+Describe the process of deploying a multi-container application in Kubernetes.
+How do you handle persistent storage in Kubernetes?
+Explain the role of Kubernetes Ingress in managing external traffic.
+How do you use Kubernetes ConfigMaps and Secrets?
+What are Kubernetes DaemonSets, and when would you use them?
+How do you monitor and log Kubernetes clusters and workloads?
+
+CI/CD Pipelines
+
+What is the role of a CI/CD pipeline in modern software development?
+How do you set up a CI/CD pipeline using GitHub Actions?
+Explain the difference between continuous integration, continuous delivery, and continuous deployment.
+How do you manage secrets in a CI/CD pipeline?
+How do you implement automated testing in a CI/CD pipeline?
+What are the best practices for handling environment variables in CI/CD?
+How do you implement canary deployments in a CI/CD pipeline?
+Explain how you handle rollbacks in a CI/CD pipeline.
+How do you monitor the performance and success of CI/CD deployments?
+Describe your experience with GitLab CI/CD and how it compares to other CI/CD tools.
+
+Monitoring & Logging
+
+How do you implement logging in a microservices architecture?
+What are the benefits of using centralized logging systems like ELK or Splunk?
+How do you set up and manage log retention policies?
+Explain how you use metrics to monitor system performance.
+What is the role of distributed tracing in monitoring microservices?
+How do you configure and manage alerts in a monitoring system?
+Describe the process of root cause analysis using logs and metrics.
+How do you monitor the health and performance of cloud-based applications?
+What are the key differences between Prometheus and Grafana?
+How do you use synthetic monitoring to track application availability?
+
+Security Practices
+
+How do you implement security best practices in a cloud environment?
+What are the common security threats in AWS, and how do you mitigate them?
+How do you secure APIs exposed by your application?
+Explain the role of encryption in securing data at rest and in transit.
+How do you handle identity management and authentication in AWS?
+What are the best practices for securing Docker containers?
+How do you secure Kubernetes clusters against common vulnerabilities?
+Explain how you manage and rotate secrets securely in cloud environments.
+How do you implement network security in AWS using security groups and NACLs?
+What tools do you use for vulnerability scanning and management?
+
+High Availability & Scalability
+
+What are the key considerations for designing a highly available system in AWS?
+How do you implement auto-scaling in AWS for EC2 instances?
+Explain the difference between vertical and horizontal scaling.
+How do you design a multi-region deployment for disaster recovery?
+How do you ensure data consistency in a distributed system?
+Describe how you implement load balancing in AWS.
+How do you handle failover between regions in AWS?
+What are the best practices for managing database replication in a highly available system?
+How do you design and implement a backup strategy in AWS?
+What is the role of AWS Global Accelerator in improving application performance and availability?
+
+Networking
+
+What is a VPC, and how do you set it up in AWS?
+Explain the role of subnets, route tables, and NAT gateways in a VPC.
+How do you secure network traffic using AWS Security Groups and NACLs?
+What is the role of AWS Direct Connect, and when would you use it?
+How do you implement VPC peering, and what are the use cases?
+Explain how you manage DNS in AWS using Route 53.
+How do you implement a hybrid cloud network architecture?
+What are the best practices for managing network latency in cloud environments?
+How do you set up and manage VPN connections in AWS?
+Describe the role of AWS Transit Gateway in network architecture.
+
+Database Management
+
+How do you manage and optimize databases in AWS RDS?
+Explain the difference between SQL and NoSQL databases.
+How do you implement database backups and restore procedures in AWS?
+What are the best practices for securing databases in a cloud environment?
+How do you handle database replication and failover in AWS?
+Describe how you monitor and optimize database performance.
+How do you manage schema changes in a production database?
+What is the role of Amazon Aurora, and how does it differ from traditional RDS?
+How do you implement and manage caching solutions for databases?
+What are the considerations for selecting a database engine for a cloud-based application?
+
+Troubleshooting & Incident Response
+
+What is the process of incident response in a cloud environment?
+How do you approach troubleshooting a complex issue in a distributed system?
+Explain the process of conducting a root cause analysis after an incident.
+How do you handle on-call responsibilities and manage incident response?
+What tools do you use for incident management and post-mortem analysis?
+How do you document and communicate incident responses to stakeholders?
+Describe a time when you resolved a critical incident in production.
+How do you prioritize and manage multiple incidents simultaneously?
+What is the role of runbooks in incident management?
+How do you ensure continuous improvement based on lessons learned from incidents?
+How do you automate incident response to reduce resolution time?
