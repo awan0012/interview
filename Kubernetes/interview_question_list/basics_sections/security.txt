@@ -1,0 +1,12 @@
+# Kubernetes Security
+
+1. What is role-based access control (RBAC) in Kubernetes?
+2. How do you define a Role and a RoleBinding in Kubernetes?
+3. What is a ClusterRole, and how does it differ from a Role?
+4. How do you implement network policies for pod security in Kubernetes?
+5. What are PodSecurityPolicies in Kubernetes?
+6. How do you manage Secrets securely in Kubernetes?
+7. What is the role of namespaces in Kubernetes security?
+8. How do you secure the Kubernetes API server?
+9. What are admission controllers in Kubernetes?
+10. How do you implement security best practices in a Kubernetes cluster?

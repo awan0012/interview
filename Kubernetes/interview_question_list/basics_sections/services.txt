@@ -1,0 +1,14 @@
+# Kubernetes Services
+
+1. What is a Kubernetes service?
+2. Explain the difference between ClusterIP, NodePort, and LoadBalancer services.
+3. How does a service discover and communicate with pods?
+4. What is the role of kube-proxy in Kubernetes networking?
+5. What is a headless service, and when would you use it?
+6. How do you define a service in Kubernetes?
+7. What is the role of a service selector?
+8. How do you expose a service on an external IP address?
+9. Explain the concept of service mesh in Kubernetes.
+10. What is the use of an ExternalName service?
+
+# Deployments

@@ -1,0 +1,14 @@
+# Deployments
+
+1. What is a Kubernetes deployment?
+2. How do you create a deployment in Kubernetes?
+3. Explain the purpose of a ReplicaSet in Kubernetes.
+4. What is the relationship between deployments and ReplicaSets?
+5. How do you scale a deployment in Kubernetes?
+6. What is a rolling update in Kubernetes?
+7. How do you perform a rollback in Kubernetes?
+8. What is the difference between a deployment and a StatefulSet?
+9. How do you pause and resume a deployment in Kubernetes?
+10. What are deployment strategies, and what types does Kubernetes support?
+
+# StatefulSets

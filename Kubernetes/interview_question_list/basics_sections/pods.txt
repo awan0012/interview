@@ -1,0 +1,14 @@
+## Pods
+
+1. How do you define a pod in Kubernetes?
+2. What are the key characteristics of a pod?
+3. Explain the lifecycle of a pod in Kubernetes.
+4. What is the difference between a pod and a container?
+5. How do you restart a pod in Kubernetes?
+6. What is a multi-container pod, and when would you use it?
+7. How do you create a pod using a YAML file?
+8. What is an init container, and how does it differ from a regular container?
+9. How do you expose a pod to the external world?
+10. What are pod labels, and how are they used?
+
+# Kubernetes Services

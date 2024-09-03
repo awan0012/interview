@@ -1,0 +1,14 @@
+## Kubernetes Basics
+
+1. What is Kubernetes, and why is it used?
+2. Explain the architecture of Kubernetes.
+3. What are the key components of the Kubernetes control plane?
+4. What is a Kubernetes cluster?
+5. What is the role of a Kubernetes node?
+6. Explain the function of the kube-apiserver.
+7. What is etcd, and how is it used in Kubernetes?
+8. What is the role of the kube-scheduler?
+9. What does the kube-controller-manager do?
+10. What is a Kubernetes pod?
+
+## Pods

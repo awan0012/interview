@@ -1,0 +1,14 @@
+# Kubernetes Ingress
+
+1. What is an Ingress resource in Kubernetes?
+2. How do you define an Ingress in Kubernetes?
+3. What is the role of an Ingress controller?
+4. How does an Ingress resource handle HTTPS traffic?
+5. What is path-based routing in Kubernetes Ingress?
+6. How do you secure an Ingress resource with TLS?
+7. What is the difference between an Ingress and a LoadBalancer?
+8. How do you manage multiple domains using a single Ingress resource?
+9. What are the benefits of using an Ingress resource over a NodePort?
+10. How do you troubleshoot issues with Ingress in Kubernetes?
+
+# Kubernetes Security

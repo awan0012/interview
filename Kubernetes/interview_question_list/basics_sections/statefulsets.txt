@@ -1,0 +1,14 @@
+# StatefulSets
+
+1. What is a StatefulSet in Kubernetes?
+2. When would you use a StatefulSet instead of a deployment?
+3. How do StatefulSets manage pod identity?
+4. What is the role of persistent storage in a StatefulSet?
+5. How does scaling work in StatefulSets?
+6. How do you update a StatefulSet in Kubernetes?
+7. What is the significance of the PodManagementPolicy in StatefulSets?
+8. How do you manage rolling updates in a StatefulSet?
+9. What are the differences between StatefulSets and DaemonSets?
+10. How do you delete a StatefulSet without deleting the underlying persistent volumes?
+
+# Kubernetes ConfigMaps & Secrets

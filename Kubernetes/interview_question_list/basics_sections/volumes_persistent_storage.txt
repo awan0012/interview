@@ -1,0 +1,14 @@
+# Kubernetes Volumes & Persistent Storage
+
+1. What is a volume in Kubernetes?
+2. Explain the difference between an ephemeral volume and a persistent volume.
+3. What is a PersistentVolume (PV) in Kubernetes?
+4. How do you define a PersistentVolumeClaim (PVC)?
+5. What is dynamic provisioning in Kubernetes storage?
+6. How do you manage storage classes in Kubernetes?
+7. What is the role of the persistentVolumeReclaimPolicy in Kubernetes?
+8. How do you attach a persistent volume to a pod?
+9. What are the different types of volumes supported by Kubernetes?
+10. How do you back up and restore persistent data in Kubernetes?
+
+# Kubernetes Networking

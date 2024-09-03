@@ -1,0 +1,14 @@
+# Kubernetes Networking
+
+1. Explain the Kubernetes networking model.
+2. What is a Kubernetes CNI (Container Network Interface)?
+3. How do you set up network policies in Kubernetes?
+4. What is the role of a Service in Kubernetes networking?
+5. Explain the concept of pod-to-pod communication in Kubernetes.
+6. How does DNS work within a Kubernetes cluster?
+7. What is a kube-proxy, and how does it manage network traffic?
+8. How do you troubleshoot network issues in Kubernetes?
+9. What is the difference between Ingress and a LoadBalancer service?
+10. How do you implement network security in a Kubernetes cluster?
+
+# Kubernetes Ingress
