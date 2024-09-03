@@ -1,0 +1,129 @@
+Observability Basics
+
+What is observability in the context of IT systems?
+How does observability differ from monitoring?
+What are the three pillars of observability?
+Explain the importance of logs in observability.
+What role do metrics play in observability?
+How are traces used in observability?
+What is the difference between white-box and black-box monitoring?
+How do you measure system performance using observability tools?
+What is the concept of end-to-end observability?
+How do you implement observability in a microservices architecture?
+
+Monitoring Basics
+
+What is monitoring, and why is it important?
+How does monitoring differ from alerting?
+What is the purpose of an uptime monitoring tool?
+What is the role of SNMP in monitoring?
+Explain the difference between active and passive monitoring.
+What are service-level indicators (SLIs) and service-level objectives (SLOs)?
+How do you set up a monitoring strategy for a distributed system?
+What is synthetic monitoring, and when would you use it?
+How do you ensure that your monitoring system is reliable?
+What are the common challenges faced in monitoring cloud-native applications?
+
+Logging Basics
+
+What is logging, and why is it important?
+Explain the concept of log aggregation.
+How do you structure logs for better analysis?
+What is the difference between structured and unstructured logs?
+How do you ensure the security of log data?
+What are log levels, and how do you use them effectively?
+How do you set up log rotation?
+What is the importance of timestamping in logs?
+How do you handle log retention and archival?
+What are the common issues encountered with logging systems?
+
+Observability Tools
+
+What are some popular observability tools?
+How does Prometheus work as a monitoring tool?
+What is Grafana, and how is it used in observability?
+How does Jaeger help with distributed tracing?
+What is the role of OpenTelemetry in observability?
+How do you configure ELK stack (Elasticsearch, Logstash, Kibana) for observability?
+What is Splunk, and how is it used in logging and monitoring?
+How does Datadog integrate observability and monitoring?
+What are the key features of New Relic for observability?
+How do you use AWS CloudWatch for monitoring and logging?
+
+Metrics and Monitoring
+
+What are the key metrics to monitor in a web application?
+How do you define custom metrics in a monitoring tool?
+What is the difference between host-based and application-based metrics?
+How do you monitor CPU and memory usage effectively?
+What are error rates, and why are they important to monitor?
+How do you set up threshold-based alerts in a monitoring system?
+What are the advantages of using a time-series database for metrics?
+How do you monitor network latency and throughput?
+What is the role of anomaly detection in monitoring?
+How do you visualize metrics for better understanding?
+
+Tracing and Distributed Systems
+
+What is distributed tracing?
+How does tracing help in diagnosing issues in microservices?
+What is the role of a trace ID in distributed tracing?
+How do you implement tracing in a microservices environment?
+What are spans in distributed tracing?
+How do you capture trace data across different services?
+What is a sampling strategy in distributed tracing?
+How do you use tracing to optimize the performance of a distributed system?
+What is the OpenTracing standard?
+How do you integrate tracing with metrics and logging?
+
+Alerting and Incident Management
+
+What are the best practices for setting up alerts?
+How do you avoid alert fatigue?
+What is the role of a runbook in incident management?
+How do you configure alerts based on SLIs and SLOs?
+What is a paging system in the context of alerting?
+How do you prioritize alerts based on severity?
+What is the role of an incident response team?
+How do you use playbooks in incident management?
+What is the importance of post-incident reviews?
+How do you integrate alerting with communication tools like Slack or PagerDuty?
+
+Log Management
+
+What is log management?
+How do you set up a centralized log management system?
+What are the benefits of using a log analysis tool?
+How do you handle log ingestion in high-volume environments?
+What is the role of a log shipper like Filebeat?
+How do you use Elasticsearch for log indexing?
+What are the advantages of using Kibana for log visualization?
+How do you correlate logs from different services?
+What is the importance of log normalization?
+How do you use regex for log parsing?
+
+Security and Compliance in Observability
+
+How do you ensure the security of observability data?
+What is log tampering, and how do you prevent it?
+How do you implement access control for monitoring and logging systems?
+What is the role of encryption in observability?
+How do you comply with GDPR and other regulations in logging?
+What is audit logging, and why is it important?
+How do you ensure data privacy in observability systems?
+What are the best practices for securing a monitoring tool like Prometheus?
+How do you manage sensitive information in logs?
+What is the importance of retaining logs for compliance purposes?
+
+Advanced Observability Topics
+
+What is a service mesh, and how does it enhance observability?
+How do you implement observability in a Kubernetes environment?
+What is the difference between real-time and historical monitoring?
+How do you use machine learning for anomaly detection in observability?
+What is the role of AI in modern observability tools?
+How do you handle observability in a serverless architecture?
+What are synthetic tests, and how do they contribute to observability?
+How do you optimize the performance of your observability stack?
+What are the challenges of implementing observability in a multi-cloud environment?
+How do you scale observability as your system grows?
