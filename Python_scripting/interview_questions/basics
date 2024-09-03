@@ -1,0 +1,121 @@
+# Bash Interview Questions
+
+## Bash Basics
+1. What is Bash?
+2. How do you create and run a Bash script?
+3. What is the significance of #!/bin/bash at the beginning of a script?
+4. How do you make a Bash script executable?
+5. How do you pass arguments to a Bash script?
+6. What is the difference between sh and bash?
+7. How do you comment in Bash scripts?
+8. What is the purpose of the chmod command in the context of Bash scripting?
+9. How do you handle errors in Bash scripts?
+10. What is the role of the exit command in a script?
+
+## Bash Variables
+1. How do you define a variable in Bash?
+2. What are the rules for naming variables in Bash?
+3. How do you access the value of a variable in Bash?
+4. What is the difference between local and global variables in Bash?
+5. How do you use environment variables in Bash scripts?
+6. What is the $? variable used for in Bash?
+7. How do you export a variable in Bash?
+8. What is the difference between $* and $@?
+9. How do you perform arithmetic operations in Bash?
+10. What is a positional parameter in Bash?
+
+## Bash Control Structures
+1. How do you write an if statement in Bash?
+2. What is the syntax for a for loop in Bash?
+3. How do you write a while loop in Bash?
+4. What is the case statement used for in Bash?
+5. How do you use break and continue in Bash loops?
+6. What is the until loop in Bash?
+7. How do you implement a switch-case-like structure in Bash?
+8. What is the difference between if and elif in Bash?
+9. How do you perform a string comparison in Bash?
+10. How do you check if a file exists in Bash?
+
+## Bash Functions
+1. How do you define a function in Bash?
+2. How do you call a function in Bash?
+3. How do you pass arguments to a Bash function?
+4. What is the purpose of the return statement in a Bash function?
+5. How do you capture the output of a command in a variable within a Bash script?
+6. How do you return a value from a Bash function?
+7. How do you create a recursive function in Bash?
+8. What is the significance of the $1, $2, etc., within a function?
+9. How do you use local variables within a function?
+10. What is the purpose of the source or . command in Bash?
+
+## Bash Arrays
+1. How do you define an array in Bash?
+2. How do you access elements of an array in Bash?
+3. How do you find the length of an array in Bash?
+4. What is the difference between an indexed array and an associative array in Bash?
+5. How do you iterate over an array in Bash?
+6. How do you add elements to an array in Bash?
+7. How do you remove elements from an array in Bash?
+8. How do you sort an array in Bash?
+9. How do you pass an array to a function in Bash?
+10. How do you concatenate arrays in Bash?
+
+## Bash String Operations
+1. How do you concatenate strings in Bash?
+2. How do you check the length of a string in Bash?
+3. How do you extract a substring in Bash?
+4. What is the purpose of the cut command in Bash?
+5. How do you replace a substring in a string in Bash?
+6. How do you split a string into an array in Bash?
+7. How do you perform pattern matching in Bash?
+8. What is the sed command, and how is it used for string manipulation?
+9. How do you remove leading and trailing whitespace from a string in Bash?
+10. How do you convert a string to uppercase or lowercase in Bash?
+
+## File and Directory Operations
+1. How do you check if a file or directory exists in Bash?
+2. How do you create a new directory in Bash?
+3. How do you copy files or directories in Bash?
+4. What is the difference between > and >> in Bash?
+5. How do you delete files or directories in Bash?
+6. How do you move or rename a file in Bash?
+7. How do you read a file line by line in Bash?
+8. How do you find files with a specific pattern in Bash?
+9. How do you count the number of lines in a file in Bash?
+10. What is the find command, and how is it used in Bash?
+
+## Bash Input/Output
+1. How do you read user input in Bash?
+2. What is the purpose of the echo command in Bash?
+3. How do you redirect output to a file in Bash?
+4. What is the difference between stdout and stderr in Bash?
+5. How do you use the tee command in Bash?
+6. How do you pipe the output of one command to another in Bash?
+7. What is the xargs command, and how is it used in Bash?
+8. How do you handle command-line arguments in Bash scripts?
+9. How do you suppress command output in Bash?
+10. What is the purpose of the /dev/null file in Bash?
+
+## Process Management in Bash
+1. How do you list running processes in Bash?
+2. What is the ps command used for in Bash?
+3. How do you kill a process in Bash?
+4. How do you run a command in the background in Bash?
+5. How do you bring a background process to the foreground in Bash?
+6. What is the difference between & and && in Bash?
+7. How do you check the exit status of a command in Bash?
+8. How do you schedule a command to run later in Bash?
+9. What is the cron command, and how is it used in Bash?
+10. How do you use the trap command to handle signals in Bash?
+
+## Bash Debugging and Best Practices
+1. How do you debug a Bash script?
+2. What is the purpose of the set -x command in Bash?
+3. How do you handle errors in Bash scripts?
+4. What are some best practices for writing Bash scripts?
+5. How do you ensure a script is only run by a particular user?
+6. What is the difference between eval and exec in Bash?
+7. How do you check for syntax errors in a Bash script?
+8. How do you use the shellcheck tool to validate Bash scripts?
+9. How do you handle large files in Bash scripts?
+10. What are some common pitfalls to avoid in Bash scripting?
