@@ -1,130 +1,144 @@
-Jenkins Basics
+# Jenkins Basics
 
-What is Jenkins, and why is it used?
-How does Jenkins work?
-What are the key features of Jenkins?
-Explain the architecture of Jenkins.
-What is a Jenkins job?
-How do you create a new job in Jenkins?
-What are the different types of Jenkins jobs?
-What is the Jenkins pipeline?
-How do you trigger a Jenkins build?
-Explain the concept of continuous integration (CI) in Jenkins.
+1. What is Jenkins, and why is it used?
+2. How does Jenkins work?
+3. What are the key features of Jenkins?
+4. Explain the architecture of Jenkins.
+5. What is a Jenkins job?
+6. How do you create a new job in Jenkins?
+7. What are the different types of Jenkins jobs?
+8. What is the Jenkins pipeline?
+9. How do you trigger a Jenkins build?
+10. Explain the concept of continuous integration (CI) in Jenkins.
 
-Jenkins Installation & Configuration
+# Jenkins Installation & Configuration
 
-How do you install Jenkins on a server?
-What are the system requirements for Jenkins?
-How do you configure Jenkins after installation?
-How do you manage Jenkins plugins?
-What is the Jenkins home directory, and what does it contain?
-How do you secure Jenkins with SSL?
-How do you set up authentication in Jenkins?
-What is the role of the Jenkinsfile?
-How do you backup Jenkins configurations and jobs?
-How do you update Jenkins to a newer version?
+1. How do you install Jenkins on a server?
+2. What are the system requirements for Jenkins?
+3. How do you configure Jenkins after installation?
+4. How do you manage Jenkins plugins?
+5. What is the Jenkins home directory, and what does it contain?
+6. How do you secure Jenkins with SSL?
+7. How do you set up authentication in Jenkins?
+8. What is the role of the Jenkinsfile?
+9. How do you backup Jenkins configurations and jobs?
+10. How do you update Jenkins to a newer version?
 
-Jenkins Pipeline
+# Jenkins Pipeline
 
-What is a Jenkins pipeline?
-How do you create a pipeline in Jenkins?
-Explain the difference between declarative and scripted pipelines.
-What is the Jenkinsfile, and how is it used in a pipeline?
-How do you use environment variables in a Jenkins pipeline?
-What are stages and steps in a Jenkins pipeline?
-How do you trigger a pipeline build in Jenkins?
-What is a multibranch pipeline in Jenkins?
-How do you handle parallel execution in a Jenkins pipeline?
-What is the role of the post section in a declarative pipeline?
+1. What is a Jenkins pipeline?
+2. How do you create a pipeline in Jenkins?
+3. Explain the difference between declarative and scripted pipelines.
+4. What is the Jenkinsfile, and how is it used in a pipeline?
+5. How do you use environment variables in a Jenkins pipeline?
+6. What are stages and steps in a Jenkins pipeline?
+7. How do you trigger a pipeline build in Jenkins?
+8. What is a multibranch pipeline in Jenkins?
+9. How do you handle parallel execution in a Jenkins pipeline?
+10. What is the role of the post section in a declarative pipeline?
 
-Jenkins Plugins
+# Jenkins Plugins
 
-What are Jenkins plugins?
-How do you install a plugin in Jenkins?
-How do you manage plugin dependencies in Jenkins?
-What is the role of the Git plugin in Jenkins?
-Explain how to use the Pipeline plugin in Jenkins.
-What are some essential plugins for Jenkins?
-How do you troubleshoot plugin issues in Jenkins?
-What is the purpose of the Blue Ocean plugin?
-How do you configure the Email Extension plugin in Jenkins?
-What is the role of the Job DSL plugin?
+1. What are Jenkins plugins?
+2. How do you install a plugin in Jenkins?
+3. How do you manage plugin dependencies in Jenkins?
+4. What is the role of the Git plugin in Jenkins?
+5. Explain how to use the Pipeline plugin in Jenkins.
+6. What are some essential plugins for Jenkins?
+7. How do you troubleshoot plugin issues in Jenkins?
+8. What is the purpose of the Blue Ocean plugin?
+9. How do you configure the Email Extension plugin in Jenkins?
+10. What is the role of the Job DSL plugin?
 
-Jenkins Job Configuration
+# Jenkins Job Configuration
 
-How do you configure a job in Jenkins?
-What are build triggers, and how do you configure them in Jenkins?
-How do you schedule a Jenkins job using CRON syntax?
-What are post-build actions in Jenkins?
-How do you configure a job to run on specific nodes in Jenkins?
-What is the role of build parameters in Jenkins?
-How do you use artifacts in a Jenkins job?
-What is the purpose of the Build Now button in Jenkins?
-How do you manage build history in Jenkins?
-How do you configure source code management (SCM) in Jenkins?
+1. How do you configure a job in Jenkins?
+2. What are build triggers, and how do you configure them in Jenkins?
+3. How do you schedule a Jenkins job using CRON syntax?
+4. What are post-build actions in Jenkins?
+5. How do you configure a job to run on specific nodes in Jenkins?
+6. What is the role of build parameters in Jenkins?
+7. How do you use artifacts in a Jenkins job?
+8. What is the purpose of the Build Now button in Jenkins?
+9. How do you manage build history in Jenkins?
+10. How do you configure source code management (SCM) in Jenkins?
 
-Jenkins Nodes & Distributed Builds
+# Jenkins Nodes & Distributed Builds
 
-What are Jenkins nodes?
-How do you add a new node to Jenkins?
-What is the difference between a master and an agent in Jenkins?
-How do you configure a Jenkins node for specific builds?
-What is the purpose of the label in Jenkins nodes?
-How do you manage node availability in Jenkins?
-How do you configure Jenkins for distributed builds?
-What are the advantages of using Jenkins agents?
-How do you secure communication between Jenkins master and agents?
-How do you troubleshoot node connection issues in Jenkins?
+1. What are Jenkins nodes?
+2. How do you add a new node to Jenkins?
+3. What is the difference between a master and an agent in Jenkins?
+4. How do you configure a Jenkins node for specific builds?
+5. What is the purpose of the label in Jenkins nodes?
+6. How do you manage node availability in Jenkins?
+7. How do you configure Jenkins for distributed builds?
+8. What are the advantages of using Jenkins agents?
+9. How do you secure communication between Jenkins master and agents?
+10. How do you troubleshoot node connection issues in Jenkins?
 
-Jenkins Security
+# Jenkins Security
 
-How do you secure Jenkins?
-What is role-based access control (RBAC) in Jenkins?
-How do you configure user permissions in Jenkins?
-What are security realms in Jenkins?
-How do you integrate Jenkins with LDAP for authentication?
-How do you set up matrix-based security in Jenkins?
-What is the purpose of the admin user in Jenkins?
-How do you manage credentials in Jenkins?
-What is a secret text credential in Jenkins, and how do you use it?
-How do you audit security in Jenkins?
+1. How do you secure Jenkins?
+2. What is role-based access control (RBAC) in Jenkins?
+3. How do you configure user permissions in Jenkins?
+4. What are security realms in Jenkins?
+5. How do you integrate Jenkins with LDAP for authentication?
+6. How do you set up matrix-based security in Jenkins?
+7. What is the purpose of the admin user in Jenkins?
+8. How do you manage credentials in Jenkins?
+9. What is a secret text credential in Jenkins, and how do you use it?
+10. How do you audit security in Jenkins?
 
-Jenkins Integration
+# Jenkins Integration
 
-How do you integrate Jenkins with Git?
-What is the role of Webhooks in Jenkins integration?
-How do you configure Jenkins to trigger builds from a GitHub push?
-How do you integrate Jenkins with Docker?
-What is the purpose of Jenkins integration with JIRA?
-How do you configure Jenkins to run tests automatically?
-How do you integrate Jenkins with a code quality tool like SonarQube?
-How do you use Jenkins to deploy applications to a cloud platform?
-How do you set up Jenkins for continuous delivery (CD)?
-How do you integrate Jenkins with a notification system like Slack?
+1. How do you integrate Jenkins with Git?
+2. What is the role of Webhooks in Jenkins integration?
+3. How do you configure Jenkins to trigger builds from a GitHub push?
+4. How do you integrate Jenkins with Docker?
+5. What is the purpose of Jenkins integration with JIRA?
+6. How do you configure Jenkins to run tests automatically?
+7. How do you integrate Jenkins with a code quality tool like SonarQube?
+8. How do you use Jenkins to deploy applications to a cloud platform?
+9. How do you set up Jenkins for continuous delivery (CD)?
+10. How do you integrate Jenkins with a notification system like Slack?
 
-Jenkins Administration
+# Jenkins Administration
 
-How do you monitor Jenkins performance?
-How do you manage Jenkins logs?
-What is the purpose of the Jenkins system log?
-How do you configure email notifications in Jenkins?
-How do you manage disk usage in Jenkins?
-What is the purpose of the Jenkins CLI?
-How do you configure Jenkins for high availability?
-How do you manage large Jenkins installations?
-How do you perform a safe shutdown of Jenkins?
-What are the best practices for Jenkins administration?
+1. How do you monitor Jenkins performance?
+2. How do you manage Jenkins logs?
+3. What is the purpose of the Jenkins system log?
+4. How do you configure email notifications in Jenkins?
+5. How do you manage disk usage in Jenkins?
+6. What is the purpose of the Jenkins CLI?
+7. How do you configure Jenkins for high availability?
+8. How do you manage large Jenkins installations?
+9. How do you perform a safe shutdown of Jenkins?
+10. What are the best practices for Jenkins administration?
 
-Jenkins Best Practices & Troubleshooting
+# Jenkins Best Practices & Troubleshooting
 
-How do you manage Jenkins configurations?
-What are some best practices for Jenkins pipeline development?
-How do you manage pipeline complexity in Jenkins?
-What are common issues faced in Jenkins, and how do you troubleshoot them?
-How do you handle failed builds in Jenkins?
-How do you optimize Jenkins performance?
-What are the best practices for managing Jenkins jobs?
-How do you perform disaster recovery for Jenkins?
-How do you keep Jenkins and its plugins up to date?
-How do you manage Jenkins security vulnerabilities?
-What are the best practices for scaling Jenkins in a large organization?
+1. How do you manage Jenkins configurations?
+2. What are some best practices for Jenkins pipeline development?
+3. How do you manage pipeline complexity in Jenkins?
+4. What are common issues faced in Jenkins, and how do you troubleshoot them?
+5. How do you handle failed builds in Jenkins?
+6. How do you optimize Jenkins performance?
+7. What are the best practices for managing Jenkins jobs?
+8. How do you perform disaster recovery for Jenkins?
+9. How do you keep Jenkins and its plugins up to date?
+10. How do you manage Jenkins security vulnerabilities?
+11. What are the best practices for scaling Jenkins in a large organization?
+12. How do you handle Jenkins downtime?
+13. How do you manage Jenkins backups?
+14. How do you handle Jenkins performance issues?
+15. How do you handle Jenkins security breaches?
+16. How do you manage Jenkins plugins?
+17. How do you handle Jenkins configuration drift?
+18. How do you handle Jenkins plugin conflicts?
+19. How do you handle Jenkins plugin updates?
+20. How do you handle Jenkins plugin vulnerabilities?
+21. How do you handle Jenkins plugin performance issues?
+22. How do you handle Jenkins plugin security issues?
+23. How do you handle Jenkins plugin configuration issues?
+24. How do you handle Jenkins plugin compatibility issues?
+

@@ -1,129 +1,129 @@
-Kubernetes Basics
+## Kubernetes Basics
 
-What is Kubernetes, and why is it used?
-Explain the architecture of Kubernetes.
-What are the key components of the Kubernetes control plane?
-What is a Kubernetes cluster?
-What is the role of a Kubernetes node?
-Explain the function of the kube-apiserver.
-What is etcd, and how is it used in Kubernetes?
-What is the role of the kube-scheduler?
-What does the kube-controller-manager do?
-What is a Kubernetes pod?
+1. What is Kubernetes, and why is it used?
+2. Explain the architecture of Kubernetes.
+3. What are the key components of the Kubernetes control plane?
+4. What is a Kubernetes cluster?
+5. What is the role of a Kubernetes node?
+6. Explain the function of the kube-apiserver.
+7. What is etcd, and how is it used in Kubernetes?
+8. What is the role of the kube-scheduler?
+9. What does the kube-controller-manager do?
+10. What is a Kubernetes pod?
 
-Pods
+## Pods
 
-How do you define a pod in Kubernetes?
-What are the key characteristics of a pod?
-Explain the lifecycle of a pod in Kubernetes.
-What is the difference between a pod and a container?
-How do you restart a pod in Kubernetes?
-What is a multi-container pod, and when would you use it?
-How do you create a pod using a YAML file?
-What is an init container, and how does it differ from a regular container?
-How do you expose a pod to the external world?
-What are pod labels, and how are they used?
+1. How do you define a pod in Kubernetes?
+2. What are the key characteristics of a pod?
+3. Explain the lifecycle of a pod in Kubernetes.
+4. What is the difference between a pod and a container?
+5. How do you restart a pod in Kubernetes?
+6. What is a multi-container pod, and when would you use it?
+7. How do you create a pod using a YAML file?
+8. What is an init container, and how does it differ from a regular container?
+9. How do you expose a pod to the external world?
+10. What are pod labels, and how are they used?
 
-Kubernetes Services
+# Kubernetes Services
 
-What is a Kubernetes service?
-Explain the difference between ClusterIP, NodePort, and LoadBalancer services.
-How does a service discover and communicate with pods?
-What is the role of kube-proxy in Kubernetes networking?
-What is a headless service, and when would you use it?
-How do you define a service in Kubernetes?
-What is the role of a service selector?
-How do you expose a service on an external IP address?
-Explain the concept of service mesh in Kubernetes.
-What is the use of an ExternalName service?
+1. What is a Kubernetes service?
+2. Explain the difference between ClusterIP, NodePort, and LoadBalancer services.
+3. How does a service discover and communicate with pods?
+4. What is the role of kube-proxy in Kubernetes networking?
+5. What is a headless service, and when would you use it?
+6. How do you define a service in Kubernetes?
+7. What is the role of a service selector?
+8. How do you expose a service on an external IP address?
+9. Explain the concept of service mesh in Kubernetes.
+10. What is the use of an ExternalName service?
 
-Deployments
+# Deployments
 
-What is a Kubernetes deployment?
-How do you create a deployment in Kubernetes?
-Explain the purpose of a ReplicaSet in Kubernetes.
-What is the relationship between deployments and ReplicaSets?
-How do you scale a deployment in Kubernetes?
-What is a rolling update in Kubernetes?
-How do you perform a rollback in Kubernetes?
-What is the difference between a deployment and a StatefulSet?
-How do you pause and resume a deployment in Kubernetes?
-What are deployment strategies, and what types does Kubernetes support?
+1. What is a Kubernetes deployment?
+2. How do you create a deployment in Kubernetes?
+3. Explain the purpose of a ReplicaSet in Kubernetes.
+4. What is the relationship between deployments and ReplicaSets?
+5. How do you scale a deployment in Kubernetes?
+6. What is a rolling update in Kubernetes?
+7. How do you perform a rollback in Kubernetes?
+8. What is the difference between a deployment and a StatefulSet?
+9. How do you pause and resume a deployment in Kubernetes?
+10. What are deployment strategies, and what types does Kubernetes support?
 
-StatefulSets
+# StatefulSets
 
-What is a StatefulSet in Kubernetes?
-When would you use a StatefulSet instead of a deployment?
-How do StatefulSets manage pod identity?
-What is the role of persistent storage in a StatefulSet?
-How does scaling work in StatefulSets?
-How do you update a StatefulSet in Kubernetes?
-What is the significance of the PodManagementPolicy in StatefulSets?
-How do you manage rolling updates in a StatefulSet?
-What are the differences between StatefulSets and DaemonSets?
-How do you delete a StatefulSet without deleting the underlying persistent volumes?
+1. What is a StatefulSet in Kubernetes?
+2. When would you use a StatefulSet instead of a deployment?
+3. How do StatefulSets manage pod identity?
+4. What is the role of persistent storage in a StatefulSet?
+5. How does scaling work in StatefulSets?
+6. How do you update a StatefulSet in Kubernetes?
+7. What is the significance of the PodManagementPolicy in StatefulSets?
+8. How do you manage rolling updates in a StatefulSet?
+9. What are the differences between StatefulSets and DaemonSets?
+10. How do you delete a StatefulSet without deleting the underlying persistent volumes?
 
-Kubernetes ConfigMaps & Secrets
+# Kubernetes ConfigMaps & Secrets
 
-What is a ConfigMap in Kubernetes?
-How do you create a ConfigMap in Kubernetes?
-How do you inject a ConfigMap into a pod?
-What is a Kubernetes Secret?
-How do you create a Secret in Kubernetes?
-How do you mount a Secret as a file in a pod?
-What are the different types of Secrets in Kubernetes?
-How do you encrypt Secrets in Kubernetes?
-What are the best practices for managing Secrets in Kubernetes?
-How do you update a ConfigMap or Secret in a running pod?
+1. What is a ConfigMap in Kubernetes?
+2. How do you create a ConfigMap in Kubernetes?
+3. How do you inject a ConfigMap into a pod?
+4. What is a Kubernetes Secret?
+5. How do you create a Secret in Kubernetes?
+6. How do you mount a Secret as a file in a pod?
+7. What are the different types of Secrets in Kubernetes?
+8. How do you encrypt Secrets in Kubernetes?
+9. What are the best practices for managing Secrets in Kubernetes?
+10. How do you update a ConfigMap or Secret in a running pod?
 
-Kubernetes Volumes & Persistent Storage
+# Kubernetes Volumes & Persistent Storage
 
-What is a volume in Kubernetes?
-Explain the difference between an ephemeral volume and a persistent volume.
-What is a PersistentVolume (PV) in Kubernetes?
-How do you define a PersistentVolumeClaim (PVC)?
-What is dynamic provisioning in Kubernetes storage?
-How do you manage storage classes in Kubernetes?
-What is the role of the persistentVolumeReclaimPolicy in Kubernetes?
-How do you attach a persistent volume to a pod?
-What are the different types of volumes supported by Kubernetes?
-How do you back up and restore persistent data in Kubernetes?
+1. What is a volume in Kubernetes?
+2. Explain the difference between an ephemeral volume and a persistent volume.
+3. What is a PersistentVolume (PV) in Kubernetes?
+4. How do you define a PersistentVolumeClaim (PVC)?
+5. What is dynamic provisioning in Kubernetes storage?
+6. How do you manage storage classes in Kubernetes?
+7. What is the role of the persistentVolumeReclaimPolicy in Kubernetes?
+8. How do you attach a persistent volume to a pod?
+9. What are the different types of volumes supported by Kubernetes?
+10. How do you back up and restore persistent data in Kubernetes?
 
-Kubernetes Networking
+# Kubernetes Networking
 
-Explain the Kubernetes networking model.
-What is a Kubernetes CNI (Container Network Interface)?
-How do you set up network policies in Kubernetes?
-What is the role of a Service in Kubernetes networking?
-Explain the concept of pod-to-pod communication in Kubernetes.
-How does DNS work within a Kubernetes cluster?
-What is a kube-proxy, and how does it manage network traffic?
-How do you troubleshoot network issues in Kubernetes?
-What is the difference between Ingress and a LoadBalancer service?
-How do you implement network security in a Kubernetes cluster?
+1. Explain the Kubernetes networking model.
+2. What is a Kubernetes CNI (Container Network Interface)?
+3. How do you set up network policies in Kubernetes?
+4. What is the role of a Service in Kubernetes networking?
+5. Explain the concept of pod-to-pod communication in Kubernetes.
+6. How does DNS work within a Kubernetes cluster?
+7. What is a kube-proxy, and how does it manage network traffic?
+8. How do you troubleshoot network issues in Kubernetes?
+9. What is the difference between Ingress and a LoadBalancer service?
+10. How do you implement network security in a Kubernetes cluster?
 
-Kubernetes Ingress
+# Kubernetes Ingress
 
-What is an Ingress resource in Kubernetes?
-How do you define an Ingress in Kubernetes?
-What is the role of an Ingress controller?
-How does an Ingress resource handle HTTPS traffic?
-What is path-based routing in Kubernetes Ingress?
-How do you secure an Ingress resource with TLS?
-What is the difference between an Ingress and a LoadBalancer?
-How do you manage multiple domains using a single Ingress resource?
-What are the benefits of using an Ingress resource over a NodePort?
-How do you troubleshoot issues with Ingress in Kubernetes?
+1. What is an Ingress resource in Kubernetes?
+2. How do you define an Ingress in Kubernetes?
+3. What is the role of an Ingress controller?
+4. How does an Ingress resource handle HTTPS traffic?
+5. What is path-based routing in Kubernetes Ingress?
+6. How do you secure an Ingress resource with TLS?
+7. What is the difference between an Ingress and a LoadBalancer?
+8. How do you manage multiple domains using a single Ingress resource?
+9. What are the benefits of using an Ingress resource over a NodePort?
+10. How do you troubleshoot issues with Ingress in Kubernetes?
 
-Kubernetes Security
+# Kubernetes Security
 
-What is role-based access control (RBAC) in Kubernetes?
-How do you define a Role and a RoleBinding in Kubernetes?
-What is a ClusterRole, and how does it differ from a Role?
-How do you implement network policies for pod security in Kubernetes?
-What are PodSecurityPolicies in Kubernetes?
-How do you manage Secrets securely in Kubernetes?
-What is the role of namespaces in Kubernetes security?
-How do you secure the Kubernetes API server?
-What are admission controllers in Kubernetes?
-How do you implement security best practices in a Kubernetes cluster?
+1. What is role-based access control (RBAC) in Kubernetes?
+2. How do you define a Role and a RoleBinding in Kubernetes?
+3. What is a ClusterRole, and how does it differ from a Role?
+4. How do you implement network policies for pod security in Kubernetes?
+5. What are PodSecurityPolicies in Kubernetes?
+6. How do you manage Secrets securely in Kubernetes?
+7. What is the role of namespaces in Kubernetes security?
+8. How do you secure the Kubernetes API server?
+9. What are admission controllers in Kubernetes?
+10. How do you implement security best practices in a Kubernetes cluster?

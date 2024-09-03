@@ -1,129 +1,129 @@
-Terraform Basics
+# Terraform Basics
 
-What is Terraform, and what is it used for?
-How does Terraform differ from other Infrastructure as Code (IaC) tools?
-Explain the primary components of a Terraform configuration.
-What are providers in Terraform?
-How do you initialize a Terraform configuration?
-What is the purpose of the terraform init command?
-Explain the terraform plan command and its significance.
-What does the terraform apply command do?
-How do you undo changes applied by Terraform?
-What is the terraform destroy command used for?
+1. What is Terraform, and what is it used for?
+2. How does Terraform differ from other Infrastructure as Code (IaC) tools?
+3. Explain the primary components of a Terraform configuration.
+4. What are providers in Terraform?
+5. How do you initialize a Terraform configuration?
+6. What is the purpose of the terraform init command?
+7. Explain the terraform plan command and its significance.
+8. What does the terraform apply command do?
+9. How do you undo changes applied by Terraform?
+10. What is the terraform destroy command used for?
 
-Terraform Configuration Files
+# Terraform Configuration Files
 
-What file extension does a Terraform configuration file use?
-Explain the purpose of the main.tf file in a Terraform project.
-What is the role of the variables.tf file in a Terraform configuration?
-How do you define input variables in Terraform?
-What are output variables in Terraform, and how are they used?
-How do you use the terraform.tfvars file?
-What are data sources in Terraform?
-How do you use modules in Terraform?
-What is a backend block in Terraform, and why is it important?
-How do you manage environment-specific configurations in Terraform?
+1. What file extension does a Terraform configuration file use?
+2. Explain the purpose of the main.tf file in a Terraform project.
+3. What is the role of the variables.tf file in a Terraform configuration?
+4. How do you define input variables in Terraform?
+5. What are output variables in Terraform, and how are they used?
+6. How do you use the terraform.tfvars file?
+7. What are data sources in Terraform?
+8. How do you use modules in Terraform?
+9. What is a backend block in Terraform, and why is it important?
+10. How do you manage environment-specific configurations in Terraform?
 
-Terraform State Management
+# Terraform State Management
 
-What is Terraform state, and why is it important?
-Where is the Terraform state file stored by default?
-How do you manage remote state in Terraform?
-What is the purpose of the terraform state command?
-How do you manually update Terraform state?
-What are state locking and its importance in Terraform?
-How do you handle state file conflicts in Terraform?
-Explain how Terraform keeps track of infrastructure resources.
-What is state drift in Terraform, and how do you detect it?
-How do you secure the Terraform state file?
+1. What is Terraform state, and why is it important?
+2. Where is the Terraform state file stored by default?
+3. How do you manage remote state in Terraform?
+4. What is the purpose of the terraform state command?
+5. How do you manually update Terraform state?
+6. What are state locking and its importance in Terraform?
+7. How do you handle state file conflicts in Terraform?
+8. Explain how Terraform keeps track of infrastructure resources.
+9. What is state drift in Terraform, and how do you detect it?
+10. How do you secure the Terraform state file?
 
-Terraform Providers
+# Terraform Providers
 
-What are Terraform providers, and why are they necessary?
-How do you specify a provider in a Terraform configuration?
-Explain how to use multiple providers in a single Terraform configuration.
-How do you manage provider versions in Terraform?
-What is the purpose of the provider block in Terraform?
-How do you use a custom provider in Terraform?
-What are community providers in Terraform?
-How do you troubleshoot issues with Terraform providers?
-How do you specify provider credentials in Terraform?
-What is provider aliasing in Terraform, and when would you use it?
+1. What are Terraform providers, and why are they necessary?
+2. How do you specify a provider in a Terraform configuration?
+3. Explain how to use multiple providers in a single Terraform configuration.
+4. How do you manage provider versions in Terraform?
+5. What is the purpose of the provider block in Terraform?
+6. How do you use a custom provider in Terraform?
+7. What are community providers in Terraform?
+8. How do you troubleshoot issues with Terraform providers?
+9. How do you specify provider credentials in Terraform?
+10. What is provider aliasing in Terraform, and when would you use it?
 
-Terraform Modules
+# Terraform Modules
 
-What is a Terraform module?
-How do you create a reusable Terraform module?
-Explain how to call a module in a Terraform configuration.
-How do you pass variables to a module in Terraform?
-What is the purpose of the module block in Terraform?
-How do you use public modules from the Terraform Registry?
-What is module versioning in Terraform, and how do you manage it?
-How do you organize modules in a large Terraform project?
-How do you handle module dependencies in Terraform?
-What is the difference between local modules and remote modules in Terraform?
+1. What is a Terraform module?
+2. How do you create a reusable Terraform module?
+3. Explain how to call a module in a Terraform configuration.
+4. How do you pass variables to a module in Terraform?
+5. What is the purpose of the module block in Terraform?
+6. How do you use public modules from the Terraform Registry?
+7. What is module versioning in Terraform, and how do you manage it?
+8. How do you organize modules in a large Terraform project?
+9. How do you handle module dependencies in Terraform?
+10. What is the difference between local modules and remote modules in Terraform?
 
-Terraform Workspaces
+# Terraform Workspaces
 
-What are Terraform workspaces?
-How do you create a new workspace in Terraform?
-Explain the difference between the default workspace and other workspaces in Terraform.
-How do you switch between workspaces in Terraform?
-What is the use case for Terraform workspaces?
-How do you manage different environments (e.g., dev, prod) using Terraform workspaces?
-How do you list all workspaces in a Terraform project?
-What happens to the state file when you create a new workspace?
-How do you delete a workspace in Terraform?
-Can workspaces be used to manage multi-region deployments in Terraform?
+1. What are Terraform workspaces?
+2. How do you create a new workspace in Terraform?
+3. Explain the difference between the default workspace and other workspaces in Terraform.
+4. How do you switch between workspaces in Terraform?
+5. What is the use case for Terraform workspaces?
+6. How do you manage different environments (e.g., dev, prod) using Terraform workspaces?
+7. How do you list all workspaces in a Terraform project?
+8. What happens to the state file when you create a new workspace?
+9. How do you delete a workspace in Terraform?
+10. Can workspaces be used to manage multi-region deployments in Terraform?
 
-Terraform Resources
+# Terraform Resources
 
-What is a resource in Terraform?
-How do you define a resource in a Terraform configuration?
-Explain how to reference one resource from another in Terraform.
-How do you manage resource dependencies in Terraform?
-What is the purpose of the depends_on argument in a resource block?
-How do you manage resource lifecycle using Terraform?
-What is the count parameter in Terraform, and how is it used?
-Explain the for_each argument and when you would use it.
-How do you manage conditional resource creation in Terraform?
-What are resource tags, and how do you implement them in Terraform?
+1. What is a resource in Terraform?
+2. How do you define a resource in a Terraform configuration?
+3. Explain how to reference one resource from another in Terraform.
+4. How do you manage resource dependencies in Terraform?
+5. What is the purpose of the depends_on argument in a resource block?
+6. How do you manage resource lifecycle using Terraform?
+7. What is the count parameter in Terraform, and how is it used?
+8. Explain the for_each argument and when you would use it.
+9. How do you manage conditional resource creation in Terraform?
+10. What are resource tags, and how do you implement them in Terraform?
 
-Terraform Variables
+# Terraform Variables
 
-What are input variables in Terraform?
-How do you define and use input variables in a Terraform configuration?
-Explain how to set variable values using environment variables.
-How do you use default values for input variables in Terraform?
-What are the different ways to provide variable values in Terraform?
-How do you define a list variable in Terraform?
-Explain how to define and use a map variable in Terraform.
-What is a sensitive variable, and how do you manage it in Terraform?
-How do you use complex data types (e.g., object) in Terraform variables?
-What are output variables in Terraform, and how do you define them?
+1. What are input variables in Terraform?
+2. How do you define and use input variables in a Terraform configuration?
+3. Explain how to set variable values using environment variables.
+4. How do you use default values for input variables in Terraform?
+5. What are the different ways to provide variable values in Terraform?
+6. How do you define a list variable in Terraform?
+7. Explain how to define and use a map variable in Terraform.
+8. What is a sensitive variable, and how do you manage it in Terraform?
+9. How do you use complex data types (e.g., object) in Terraform variables?
+10. What are output variables in Terraform, and how do you define them?
 
-Terraform Expressions & Functions
+# Terraform Expressions & Functions
 
-What are expressions in Terraform?
-How do you use interpolation in Terraform?
-Explain how to use the lookup function in Terraform.
-How do you use the concat function in Terraform?
-What is the count.index in Terraform, and how is it used?
-How do you implement conditional logic using the if function in Terraform?
-Explain how to use the join and split functions in Terraform.
-What is the purpose of the element function in Terraform?
-How do you iterate over a list or map in Terraform?
-What is the format function in Terraform, and how is it used?
+1. What are expressions in Terraform?
+2. How do you use interpolation in Terraform?
+3. Explain how to use the lookup function in Terraform.
+4. How do you use the concat function in Terraform?
+5. What is the count.index in Terraform, and how is it used?
+6. How do you implement conditional logic using the if function in Terraform?
+7. Explain how to use the join and split functions in Terraform.
+8. What is the purpose of the element function in Terraform?
+9. How do you iterate over a list or map in Terraform?
+10. What is the format function in Terraform, and how is it used?
 
-Terraform Best Practices
+# Terraform Best Practices
 
-What are some best practices for writing Terraform configurations?
-How do you structure a large Terraform project?
-Explain the importance of version control in Terraform projects.
-How do you manage secrets and sensitive data in Terraform?
-What is the significance of using Terraform modules for reusability?
-How do you ensure that your Terraform code is maintainable?
-What are some best practices for managing Terraform state?
-How do you perform code reviews for Terraform configurations?
-How do you handle resource destruction safely in Terraform?
-What are the common challenges faced while using Terraform, and how do you overcome them?
+1. What are some best practices for writing Terraform configurations?
+2. How do you structure a large Terraform project?
+3. Explain the importance of version control in Terraform projects.
+4. How do you manage secrets and sensitive data in Terraform?
+5. What is the significance of using Terraform modules for reusability?
+6. How do you ensure that your Terraform code is maintainable?
+7. What are some best practices for managing Terraform state?
+8. How do you perform code reviews for Terraform configurations?
+9. How do you handle resource destruction safely in Terraform?
+10. What are the common challenges faced while using Terraform, and how do you overcome them?
