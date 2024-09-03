@@ -1,0 +1,14 @@
+# Terraform Resources
+
+1. What is a resource in Terraform?
+2. How do you define a resource in a Terraform configuration?
+3. Explain how to reference one resource from another in Terraform.
+4. How do you manage resource dependencies in Terraform?
+5. What is the purpose of the depends_on argument in a resource block?
+6. How do you manage resource lifecycle using Terraform?
+7. What is the count parameter in Terraform, and how is it used?
+8. Explain the for_each argument and when you would use it.
+9. How do you manage conditional resource creation in Terraform?
+10. What are resource tags, and how do you implement them in Terraform?
+
+# Terraform Variables

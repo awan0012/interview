@@ -1,0 +1,14 @@
+# Terraform Modules
+
+1. What is a Terraform module?
+2. How do you create a reusable Terraform module?
+3. Explain how to call a module in a Terraform configuration.
+4. How do you pass variables to a module in Terraform?
+5. What is the purpose of the module block in Terraform?
+6. How do you use public modules from the Terraform Registry?
+7. What is module versioning in Terraform, and how do you manage it?
+8. How do you organize modules in a large Terraform project?
+9. How do you handle module dependencies in Terraform?
+10. What is the difference between local modules and remote modules in Terraform?
+
+# Terraform Workspaces

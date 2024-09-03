@@ -1,0 +1,14 @@
+# Terraform Expressions & Functions
+
+1. What are expressions in Terraform?
+2. How do you use interpolation in Terraform?
+3. Explain how to use the lookup function in Terraform.
+4. How do you use the concat function in Terraform?
+5. What is the count.index in Terraform, and how is it used?
+6. How do you implement conditional logic using the if function in Terraform?
+7. Explain how to use the join and split functions in Terraform.
+8. What is the purpose of the element function in Terraform?
+9. How do you iterate over a list or map in Terraform?
+10. What is the format function in Terraform, and how is it used?
+
+# Terraform Best Practices

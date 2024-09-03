@@ -1,0 +1,12 @@
+# Terraform Best Practices
+
+1. What are some best practices for writing Terraform configurations?
+2. How do you structure a large Terraform project?
+3. Explain the importance of version control in Terraform projects.
+4. How do you manage secrets and sensitive data in Terraform?
+5. What is the significance of using Terraform modules for reusability?
+6. How do you ensure that your Terraform code is maintainable?
+7. What are some best practices for managing Terraform state?
+8. How do you perform code reviews for Terraform configurations?
+9. How do you handle resource destruction safely in Terraform?
+10. What are the common challenges faced while using Terraform, and how do you overcome them?

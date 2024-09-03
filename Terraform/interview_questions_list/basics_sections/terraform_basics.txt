@@ -1,0 +1,14 @@
+# Terraform Basics
+
+1. What is Terraform, and what is it used for?
+2. How does Terraform differ from other Infrastructure as Code (IaC) tools?
+3. Explain the primary components of a Terraform configuration.
+4. What are providers in Terraform?
+5. How do you initialize a Terraform configuration?
+6. What is the purpose of the terraform init command?
+7. Explain the terraform plan command and its significance.
+8. What does the terraform apply command do?
+9. How do you undo changes applied by Terraform?
+10. What is the terraform destroy command used for?
+
+# Terraform Configuration Files

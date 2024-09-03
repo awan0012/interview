@@ -1,0 +1,14 @@
+# Terraform Variables
+
+1. What are input variables in Terraform?
+2. How do you define and use input variables in a Terraform configuration?
+3. Explain how to set variable values using environment variables.
+4. How do you use default values for input variables in Terraform?
+5. What are the different ways to provide variable values in Terraform?
+6. How do you define a list variable in Terraform?
+7. Explain how to define and use a map variable in Terraform.
+8. What is a sensitive variable, and how do you manage it in Terraform?
+9. How do you use complex data types (e.g., object) in Terraform variables?
+10. What are output variables in Terraform, and how do you define them?
+
+# Terraform Expressions & Functions

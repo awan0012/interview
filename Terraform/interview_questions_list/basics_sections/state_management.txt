@@ -1,0 +1,14 @@
+# Terraform State Management
+
+1. What is Terraform state, and why is it important?
+2. Where is the Terraform state file stored by default?
+3. How do you manage remote state in Terraform?
+4. What is the purpose of the terraform state command?
+5. How do you manually update Terraform state?
+6. What are state locking and its importance in Terraform?
+7. How do you handle state file conflicts in Terraform?
+8. Explain how Terraform keeps track of infrastructure resources.
+9. What is state drift in Terraform, and how do you detect it?
+10. How do you secure the Terraform state file?
+
+# Terraform Providers

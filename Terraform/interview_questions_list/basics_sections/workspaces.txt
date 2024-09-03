@@ -1,0 +1,14 @@
+# Terraform Workspaces
+
+1. What are Terraform workspaces?
+2. How do you create a new workspace in Terraform?
+3. Explain the difference between the default workspace and other workspaces in Terraform.
+4. How do you switch between workspaces in Terraform?
+5. What is the use case for Terraform workspaces?
+6. How do you manage different environments (e.g., dev, prod) using Terraform workspaces?
+7. How do you list all workspaces in a Terraform project?
+8. What happens to the state file when you create a new workspace?
+9. How do you delete a workspace in Terraform?
+10. Can workspaces be used to manage multi-region deployments in Terraform?
+
+# Terraform Resources

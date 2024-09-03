@@ -1,0 +1,14 @@
+# Terraform Configuration Files
+
+1. What file extension does a Terraform configuration file use?
+2. Explain the purpose of the main.tf file in a Terraform project.
+3. What is the role of the variables.tf file in a Terraform configuration?
+4. How do you define input variables in Terraform?
+5. What are output variables in Terraform, and how are they used?
+6. How do you use the terraform.tfvars file?
+7. What are data sources in Terraform?
+8. How do you use modules in Terraform?
+9. What is a backend block in Terraform, and why is it important?
+10. How do you manage environment-specific configurations in Terraform?
+
+# Terraform State Management
