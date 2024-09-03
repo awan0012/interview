@@ -1,0 +1,129 @@
+Google Cloud Platform (GCP)
+
+What are the key components of GCP, and how do they interact with each other?
+How would you migrate an application from an on-prem environment to GCP?
+Explain the process of setting up and configuring a VPC in GCP.
+How do you manage and scale Compute Engine instances in GCP?
+Describe your experience with GCP IAM roles and policies.
+How would you handle data storage in GCP using Cloud Storage or BigQuery?
+What are the best practices for securing GCP resources?
+How do you monitor and log resources in GCP?
+Explain the process of setting up load balancing in GCP.
+What is the role of Google Cloud Operations Suite in managing GCP resources?
+
+Terraform & Infrastructure as Code (IaC)
+
+What is Terraform, and why is it used in cloud infrastructure management?
+How do you define and deploy GCP resources using Terraform?
+Can you explain the difference between Terraform modules and Terraform providers?
+How do you manage state in Terraform?
+What strategies do you use to avoid conflicts when multiple teams are working on the same Terraform state?
+Describe the process of creating reusable Terraform modules.
+How do you handle secrets in Terraform?
+Explain the role of Sentinel in Terraform, and how does it enhance security?
+How do you implement infrastructure changes in Terraform without causing downtime?
+How do you ensure that your Terraform configurations are compliant with organizational policies?
+
+Kubernetes & GKE (Google Kubernetes Engine)
+
+What is Kubernetes, and how does it help in container orchestration?
+How do you deploy a Kubernetes cluster on GKE?
+Explain the process of managing Kubernetes workloads using deployments and stateful sets.
+What are Kubernetes namespaces, and how do you use them effectively?
+How do you manage and update Kubernetes clusters in GKE?
+What is Helm, and how is it used in Kubernetes deployments?
+Explain how Kubernetes handles service discovery and load balancing.
+How do you configure network policies in Kubernetes?
+What strategies do you use for monitoring and logging in Kubernetes?
+Describe the process of containerizing a Java microservice for deployment on GKE.
+
+CI/CD & Automation
+
+What is Continuous Integration and Continuous Deployment (CI/CD)?
+How do you set up a CI/CD pipeline using Jenkins?
+Explain how you would integrate GitHub with Jenkins for automated builds.
+What role does SonarQube play in a CI/CD pipeline?
+How do you manage secrets in a CI/CD pipeline?
+Describe the process of automating infrastructure deployment with Terraform in a CI/CD pipeline.
+How do you handle rollbacks in a CI/CD pipeline?
+What are GitHub Actions, and how do they compare to Jenkins?
+How do you ensure code quality and security in a CI/CD pipeline?
+Explain the process of deploying a microservice to GKE using a CI/CD pipeline.
+
+Microservices & Java with GCP Exposure
+
+What are microservices, and how do they differ from monolithic architectures?
+How do you design a microservices architecture on GCP?
+Describe the process of containerizing a Java-based microservice.
+How do you handle inter-service communication in a microservices architecture?
+What are the key challenges in managing microservices, and how do you address them?
+How do you ensure the security of microservices deployed on GCP?
+Explain the role of service mesh in microservices architecture.
+How do you implement monitoring and logging for Java microservices on GCP?
+What strategies do you use for scaling microservices on GCP?
+Describe how you would implement a CI/CD pipeline for a Java microservice.
+
+Networking & Security
+
+What is a VPC, and how do you configure it in GCP?
+How do you set up and manage firewall rules in GCP?
+Explain the process of setting up a VPN connection between on-prem and GCP.
+How do you secure communication between services in a GKE cluster?
+What is OAuth, and how is it used in securing applications?
+Describe the process of implementing network policies in Kubernetes.
+How do you manage SSL/TLS certificates in GCP?
+What are the best practices for managing network security in GCP?
+How do you handle IP whitelisting and network segmentation in GCP?
+Explain the role of Cloud Armor in protecting GCP resources.
+
+Solution Architecture & Design
+
+What is solution architecture, and why is it important?
+How do you approach designing a cloud-based solution on GCP?
+Explain the key considerations when migrating an application to GCP.
+How do you ensure scalability and high availability in your architecture?
+Describe your experience with designing a multi-cloud architecture.
+How do you manage and optimize cloud costs in your architecture?
+What are the key differences between designing for on-prem and cloud environments?
+How do you handle data residency and compliance requirements in your architecture?
+What are the key components of a well-architected framework on GCP?
+Explain how you would design a disaster recovery solution on GCP.
+
+SDLC, Release Management & Code Repository
+
+What is the Software Development Life Cycle (SDLC), and why is it important?
+How do you manage version control in a distributed team?
+Explain the process of setting up a GitHub repository for a new project.
+How do you handle branching and merging in Git?
+What are the best practices for managing releases in a CI/CD pipeline?
+How do you automate the release process in a CI/CD pipeline?
+Describe your experience with managing code reviews and pull requests.
+How do you ensure code quality in a distributed development environment?
+What role does GitHub Actions play in automating the SDLC process?
+How do you handle rollback and hotfixes in a release management process?
+
+Authorization, Authentication & Security
+
+What is the difference between authentication and authorization?
+How do you implement OAuth in a microservices architecture?
+Explain how you would secure APIs using OAuth2.0.
+What are the best practices for managing secrets in a cloud environment?
+How do you implement role-based access control (RBAC) in GCP?
+Describe the process of securing a GKE cluster.
+What strategies do you use for managing identities and access in a multi-cloud environment?
+How do you audit and monitor access to GCP resources?
+What are the key challenges in securing cloud-native applications, and how do you address them?
+How do you handle multi-factor authentication (MFA) in GCP?
+
+Additional Technical Skills & Knowledge
+What are the key differences between Python and Java?
+How do you integrate Python scripts into a CI/CD pipeline?
+Explain the process of managing dependencies in a Python project.
+How do you handle logging and monitoring in a Python-based application?
+Describe your experience with deploying Python applications on GCP.
+How do you use GitHub Actions to automate Python deployments?
+What are the key considerations when containerizing a Python application?
+How do you ensure code quality in a Python project?
+Explain the process of testing and deploying a Python application using a CI/CD pipeline.
+What are the best practices for managing Python packages and dependencies in a cloud environment?
+How do you secure Python applications deployed in GCP?
