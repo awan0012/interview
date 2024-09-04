@@ -106,6 +106,6 @@ This policy allows ingress traffic to pods labeled 'app: nginx' only from pods l
    Regularly update and patch all components, including CNI plugins
    Use service meshes like Istio for advanced traffic management and security features
    Implement proper RBAC (Role-Based Access Control) for cluster resources
- n Use network segmentation to isolate different parts of the cluster
+   Use network segmentation to isolate different parts of the cluster
 
 # Kubernetes Ingress
