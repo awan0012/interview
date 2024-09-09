@@ -1,8 +1,247 @@
 # Terraform Expressions & Functions
 
 1. What are expressions in Terraform?
+
+Expressions in Terraform are used to refer to or compute values within configuration. They are a fundamental concept in Terraform and are used in various contexts, including:
+
+- Resource arguments
+- Input variable declarations
+- Output value declarations
+- Local value declarations
+- Module arguments
+
+Expressions can be simple references to values, such as:
+- Variables: var.instance_type
+- Resource attributes: aws_instance.example.id
+- Built-in functions: max(5, 12, 9)
+
+They can also be more complex, involving arithmetic, logical operations, and function calls. For example:
+
+- Arithmetic: (var.count_a + var.count_b) * 2
+- Conditional: var.environment == "production" ? 10 : 5
+- String interpolation: "Hello, ${var.name}!"
+- Function calls: join(", ", var.list_of_strings)
+
+Terraform supports various types of expressions:
+
+1. Literal values: Strings, numbers, booleans, null
+2. References: To resources, input variables, locals, and data sources
+3. Arithmetic and logical operators: +, -, *, /, %, &&, ||, !, etc.
+4. Conditional expressions: condition ? true_val : false_val
+5. Function calls: Built-in functions like length(), map(), etc.
+6. For expressions: To transform and filter complex data structures
+7. Splat expressions: To concisely access attributes across a list of objects
+
+Expressions are evaluated during the planning and apply phases of Terraform execution, allowing for dynamic and flexible configuration of infrastructure.
+
 2. How do you use interpolation in Terraform?
+Interpolation in Terraform is a way to embed expressions within strings, allowing you to dynamically construct values based on other values in your configuration. It's commonly used to reference variables, resource attributes, or function results within string values.
+
+Here's how you use interpolation in Terraform:
+
+1. Basic syntax:
+   The basic syntax for interpolation is ${...}, where the expression inside the curly braces is evaluated and its result is inserted into the string.
+
+   Example:
+   
+   resource "aws_instance" "example" {
+     instance_type = "t2.micro"
+     tags = {
+       Name = "Instance-${var.environment}"
+     }
+   }
+   
+
+2. Referencing variables:
+   You can use interpolation to reference input variables.
+
+   Example:
+   
+   resource "aws_s3_bucket" "example" {
+     bucket = "my-bucket-${var.environment}"
+   }
+   
+
+3. Referencing resource attributes:
+   Interpolation can be used to reference attributes of other resources.
+
+   Example:
+   
+   resource "aws_eip" "example" {
+     instance = aws_instance.example.id
+   }
+   
+
+4. Using functions:
+   You can use Terraform functions within interpolation.
+
+   Example:
+   
+   resource "aws_instance" "example" {
+     instance_type = "t2.micro"
+     tags = {
+       Name = "Instance-${lower(var.environment)}"
+     }
+   }
+   
+
+5. Complex expressions:
+   Interpolation supports more complex expressions, including arithmetic and conditionals.
+
+   Example:
+   
+   resource "aws_autoscaling_group" "example" {
+     name = "asg-${var.environment}"
+     max_size = "${var.environment == "production" ? 10 : 5}"
+   }
+   
+
+6. Multiline strings:
+   For multiline strings, you can use heredoc syntax with interpolation.
+
+   Example:
+   
+   resource "aws_iam_policy" "example" {
+     name = "example-policy"
+     policy = <<EOF
+   {
+     "Version": "2012-10-17",
+     "Statement": [
+       {
+         "Effect": "Allow",
+         "Action": "s3:ListBucket",
+         "Resource": "arn:aws:s3:::${var.bucket_name}"
+       }
+     ]
+   }
+   EOF
+   }
+   
+
+7. Escaping interpolation syntax:
+   If you need to include a literal `${` in your string, you can escape it with a double dollar sign: `$${`.
+
+   Example:
+   
+   variable "dollar_amount" {
+     default = "The cost is $${var.price}"
+   }
+   
+
+Interpolation is a powerful feature in Terraform that allows for dynamic and flexible configuration. It's widely used throughout Terraform configurations to create more maintainable and adaptable infrastructure as code.
+
 3. Explain how to use the lookup function in Terraform.
+The lookup function in Terraform is used to retrieve a value from a map based on a given key. It's particularly useful when you need to select a value from a set of options based on a variable or condition. The basic syntax of the lookup function is:
+
+lookup(map, key, default)
+
+Where:
+- map: The map to perform the lookup on
+- key: The key to look up in the map
+- default: (Optional) The value to return if the key is not found in the map
+
+Here's a detailed explanation of how to use the lookup function:
+
+1. Basic usage:
+   Suppose you have a map of instance types for different environments:
+
+   variable "instance_types" {
+     type = map(string)
+     default = {
+       dev     = "t2.micro"
+       staging = "t2.medium"
+       prod    = "m5.large"
+     }
+   }
+
+   You can use the lookup function to select the appropriate instance type:
+
+   resource "aws_instance" "example" {
+     instance_type = lookup(var.instance_types, var.environment, "t2.micro")
+   }
+
+   In this example, if var.environment is "dev", "staging", or "prod", it will use the corresponding instance type. If it's any other value, it will default to "t2.micro".
+
+2. Using with conditional expressions:
+   The lookup function can be combined with conditional expressions for more complex logic:
+
+   locals {
+     env_type = var.environment == "prod" ? "production" : "non-production"
+   }
+
+   variable "instance_counts" {
+     type = map(number)
+     default = {
+       production     = 3
+       non-production = 1
+     }
+   }
+
+   resource "aws_instance" "example" {
+     count = lookup(var.instance_counts, local.env_type, 1)
+     # ... other configuration ...
+   }
+
+3. Nested lookups:
+   You can nest lookup functions for more complex scenarios:
+
+   variable "region_amis" {
+     type = map(map(string))
+     default = {
+       us-east-1 = {
+         ubuntu = "ami-0747bdcabd34c712a"
+         centos = "ami-0083662ba17882949"
+       }
+       us-west-2 = {
+         ubuntu = "ami-07dd19a7900a1f178"
+         centos = "ami-0bc06212a56393ee1"
+       }
+     }
+   }
+
+   resource "aws_instance" "example" {
+     ami = lookup(lookup(var.region_amis, var.region, {}), var.os_type, "")
+     # ... other configuration ...
+   }
+
+4. Error handling:
+   If you want to ensure that a value is always found and raise an error otherwise, you can omit the default value:
+
+   resource "aws_instance" "example" {
+     instance_type = lookup(var.instance_types, var.environment)
+   }
+
+   This will cause Terraform to return an error if var.environment is not a key in var.instance_types.
+
+5. Using with for_each:
+   The lookup function can be useful in for_each expressions:
+
+   variable "user_roles" {
+     type = map(string)
+     default = {
+       alice = "admin"
+       bob   = "developer"
+       carol = "analyst"
+     }
+   }
+
+   variable "role_policies" {
+     type = map(string)
+     default = {
+       admin     = "arn:aws:iam::policy/AdministratorAccess"
+       developer = "arn:aws:iam::policy/PowerUserAccess"
+       analyst   = "arn:aws:iam::policy/ReadOnlyAccess"
+     }
+   }
+
+   resource "aws_iam_user_policy_attachment" "user_policies" {
+     for_each = var.user_roles
+     user     = each.key
+     policy_arn = lookup(var.role_policies, each.value, var.role_policies["analyst"])
+   }
+
+In summary, the lookup function in Terraform is a versatile tool for retrieving values from maps based on dynamic keys. It's commonly used for selecting configuration options, handling different environments, and providing default values when a key is not found. By mastering the lookup function, you can create more flexible and maintainable Terraform configurations.
+
 4. How do you use the concat function in Terraform?
 5. What is the count.index in Terraform, and how is it used?
 6. How do you implement conditional logic using the if function in Terraform?
